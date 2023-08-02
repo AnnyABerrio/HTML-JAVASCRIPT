@@ -1,0 +1,28 @@
+#contenedorPadre{
+    background-color: rgb(122, 204, 239);
+    border: 2px solid #d61818;
+}
+
+#cabezera{
+    background-color: rgb(127, 81, 169);
+    height: 15%;
+}
+#menu{
+    height: 10%;
+    background-color: rgb(37, 202, 29);
+}
+#izquierda{
+    height: 50%;
+    width: 50%;
+    background-color: blueviolet;
+    float: left;
+}
+#derecha{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(83, 43, 226);
+    float: right;
+}
+#pie{
+    background-color: rgb(236, 82, 17);
+}

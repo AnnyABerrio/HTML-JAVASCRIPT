@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>maquetacion</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <script>
+            for(let i=0; i<=20; i++){
+                console.log(i +" = i")
+            }
+            function sumar(numero1, numero2){
+                let resultado = numero1+numero2;
+                console.log(resultado); 
+            }
+
+            sumar(1, 6);
+            sumar(6, 8);
+
+            function UnirNombres(nombre, apellido ){
+                let list = [nombre, ' ', apellido];
+                let nombreCompleto=''.concat(...list);
+                console.log(nombreCompleto)
+            }
+
+            UnirNombres('Anny Andrea', 'Arroyave Berrio');
+        </script>
+    </head>
+    <body>
+        <div id="contenedorPadre">
+        
+            <div id="Cabezera">Cabezera</div>
+            <div id="menu">Menu</div>
+            <div id="izquierda">Izquierda
+                <img src="descarga.jpg">
+            </div>
+            <div id="derecha">Derecha
+
+                
+            </div>
+            <div id="pie">Final</div>
+        </div>
+        
+    </body>
+</html>
